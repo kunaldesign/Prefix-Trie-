@@ -1,0 +1,7954 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap");
+html {
+  width: 100vw;
+  height: 100vh;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+html body *, html body *::before, html body *::after {
+  box-sizing: inherit;
+}
+
+.words {
+  grid-area: words;
+  box-shadow: inset 0 0 0 0.003em black;
+  padding: 0.025em;
+  background-color: white;
+  border-radius: 2% 2% 0 0;
+  margin: 0 0.0015em;
+  position: relative;
+  --SOPHIA-LEAF: "SOPHIA ";
+  --SOPHIA-BRANCH: initial;
+  --LEVEL-6: initial;
+  --SOPHI-BRANCH: initial;
+  --LEVEL-5: initial;
+  --SOPH-BRANCH: initial;
+  --LEVEL-4: initial;
+  --SOP-BRANCH: initial;
+  --LEVEL-3: initial;
+  --SO-BRANCH: initial;
+  --LEVEL-2: initial;
+  --S-BRANCH: initial;
+  --LEVEL-1: initial;
+  --LIAM-LEAF: "LIAM ";
+  --LIAM-BRANCH: initial;
+  --LIA-BRANCH: initial;
+  --LI-BRANCH: initial;
+  --L-BRANCH: initial;
+  --OLIVIA-LEAF: "OLIVIA ";
+  --OLIVIA-BRANCH: initial;
+  --OLIVI-BRANCH: initial;
+  --OLIV-BRANCH: initial;
+  --OLI-BRANCH: initial;
+  --OL-BRANCH: initial;
+  --O-BRANCH: initial;
+  --NOAH-LEAF: "NOAH ";
+  --NOAH-BRANCH: initial;
+  --NOA-BRANCH: initial;
+  --NO-BRANCH: initial;
+  --N-BRANCH: initial;
+  --RILEY-LEAF: "RILEY ";
+  --RILEY-BRANCH: initial;
+  --RILE-BRANCH: initial;
+  --RIL-BRANCH: initial;
+  --RI-BRANCH: initial;
+  --R-BRANCH: initial;
+  --JACKSON-LEAF: "JACKSON ";
+  --JACKSON-BRANCH: initial;
+  --LEVEL-7: initial;
+  --JACKSO-BRANCH: initial;
+  --JACKS-BRANCH: initial;
+  --JACK-BRANCH: initial;
+  --JAC-BRANCH: initial;
+  --JA-BRANCH: initial;
+  --J-BRANCH: initial;
+  --EMMA-LEAF: "EMMA ";
+  --EMMA-BRANCH: initial;
+  --EMM-BRANCH: initial;
+  --EM-BRANCH: initial;
+  --E-BRANCH: initial;
+  --AIDEN-LEAF: "AIDEN ";
+  --AIDEN-BRANCH: initial;
+  --AIDE-BRANCH: initial;
+  --AID-BRANCH: initial;
+  --AI-BRANCH: initial;
+  --A-BRANCH: initial;
+  --AVA-LEAF: "AVA ";
+  --AVA-BRANCH: initial;
+  --AV-BRANCH: initial;
+  --ELIJAH-LEAF: "ELIJAH ";
+  --ELIJAH-BRANCH: initial;
+  --ELIJA-BRANCH: initial;
+  --ELIJ-BRANCH: initial;
+  --ELI-BRANCH: initial;
+  --EL-BRANCH: initial;
+  --ISABELLA-LEAF: "ISABELLA ";
+  --ISABELLA-BRANCH: initial;
+  --LEVEL-8: initial;
+  --ISABELL-BRANCH: initial;
+  --ISABEL-BRANCH: initial;
+  --ISABE-BRANCH: initial;
+  --ISAB-BRANCH: initial;
+  --ISA-BRANCH: initial;
+  --IS-BRANCH: initial;
+  --I-BRANCH: initial;
+  --GRAYSON-LEAF: "GRAYSON ";
+  --GRAYSON-BRANCH: initial;
+  --GRAYSO-BRANCH: initial;
+  --GRAYS-BRANCH: initial;
+  --GRAY-BRANCH: initial;
+  --GRA-BRANCH: initial;
+  --GR-BRANCH: initial;
+  --G-BRANCH: initial;
+  --ARIA-LEAF: "ARIA ";
+  --ARIA-BRANCH: initial;
+  --ARI-BRANCH: initial;
+  --AR-BRANCH: initial;
+  --LUCAS-LEAF: "LUCAS ";
+  --LUCAS-BRANCH: initial;
+  --LUCA-BRANCH: initial;
+  --LUC-BRANCH: initial;
+  --LU-BRANCH: initial;
+  --ALIYAH-LEAF: "ALIYAH ";
+  --ALIYAH-BRANCH: initial;
+  --ALIYA-BRANCH: initial;
+  --ALIY-BRANCH: initial;
+  --ALI-BRANCH: initial;
+  --AL-BRANCH: initial;
+  --OLIVER-LEAF: "OLIVER ";
+  --OLIVER-BRANCH: initial;
+  --OLIVE-BRANCH: initial;
+  --AMELIA-LEAF: "AMELIA ";
+  --AMELIA-BRANCH: initial;
+  --AMELI-BRANCH: initial;
+  --AMEL-BRANCH: initial;
+  --AME-BRANCH: initial;
+  --AM-BRANCH: initial;
+  --CADEN-LEAF: "CADEN ";
+  --CADEN-BRANCH: initial;
+  --CADE-BRANCH: initial;
+  --CAD-BRANCH: initial;
+  --CA-BRANCH: initial;
+  --C-BRANCH: initial;
+  --MIA-LEAF: "MIA ";
+  --MIA-BRANCH: initial;
+  --MI-BRANCH: initial;
+  --M-BRANCH: initial;
+  --MATEO-LEAF: "MATEO ";
+  --MATEO-BRANCH: initial;
+  --MATE-BRANCH: initial;
+  --MAT-BRANCH: initial;
+  --MA-BRANCH: initial;
+  --LAYLA-LEAF: "LAYLA ";
+  --LAYLA-BRANCH: initial;
+  --LAYL-BRANCH: initial;
+  --LAY-BRANCH: initial;
+  --LA-BRANCH: initial;
+  --MUHAMMAD-LEAF: "MUHAMMAD ";
+  --MUHAMMAD-BRANCH: initial;
+  --MUHAMMA-BRANCH: initial;
+  --MUHAMM-BRANCH: initial;
+  --MUHAM-BRANCH: initial;
+  --MUHA-BRANCH: initial;
+  --MUH-BRANCH: initial;
+  --MU-BRANCH: initial;
+  --ZOE-LEAF: "ZOE ";
+  --ZOE-BRANCH: initial;
+  --ZO-BRANCH: initial;
+  --Z-BRANCH: initial;
+  --MASON-LEAF: "MASON ";
+  --MASON-BRANCH: initial;
+  --MASO-BRANCH: initial;
+  --MAS-BRANCH: initial;
+  --CAMILLA-LEAF: "CAMILLA ";
+  --CAMILLA-BRANCH: initial;
+  --CAMILL-BRANCH: initial;
+  --CAMIL-BRANCH: initial;
+  --CAMI-BRANCH: initial;
+  --CAM-BRANCH: initial;
+  --CARTER-LEAF: "CARTER ";
+  --CARTER-BRANCH: initial;
+  --CARTE-BRANCH: initial;
+  --CART-BRANCH: initial;
+  --CAR-BRANCH: initial;
+  --CHARLOTTE-LEAF: "CHARLOTTE ";
+  --CHARLOTTE-BRANCH: initial;
+  --LEVEL-9: initial;
+  --CHARLOTT-BRANCH: initial;
+  --CHARLOT-BRANCH: initial;
+  --CHARLO-BRANCH: initial;
+  --CHARL-BRANCH: initial;
+  --CHAR-BRANCH: initial;
+  --CHA-BRANCH: initial;
+  --CH-BRANCH: initial;
+  --JAYDEN-LEAF: "JAYDEN ";
+  --JAYDEN-BRANCH: initial;
+  --JAYDE-BRANCH: initial;
+  --JAYD-BRANCH: initial;
+  --JAY-BRANCH: initial;
+  --ELIANA-LEAF: "ELIANA ";
+  --ELIANA-BRANCH: initial;
+  --ELIAN-BRANCH: initial;
+  --ELIA-BRANCH: initial;
+  --ETHAN-LEAF: "ETHAN ";
+  --ETHAN-BRANCH: initial;
+  --ETHA-BRANCH: initial;
+  --ETH-BRANCH: initial;
+  --ET-BRANCH: initial;
+  --MILA-LEAF: "MILA ";
+  --MILA-BRANCH: initial;
+  --MIL-BRANCH: initial;
+  --SEBASTIAN-LEAF: "SEBASTIAN ";
+  --SEBASTIAN-BRANCH: initial;
+  --SEBASTIA-BRANCH: initial;
+  --SEBASTI-BRANCH: initial;
+  --SEBAST-BRANCH: initial;
+  --SEBAS-BRANCH: initial;
+  --SEBA-BRANCH: initial;
+  --SEB-BRANCH: initial;
+  --SE-BRANCH: initial;
+  --EVERLY-LEAF: "EVERLY ";
+  --EVERLY-BRANCH: initial;
+  --EVERL-BRANCH: initial;
+  --EVER-BRANCH: initial;
+  --EVE-BRANCH: initial;
+  --EV-BRANCH: initial;
+  --JAMES-LEAF: "JAMES ";
+  --JAMES-BRANCH: initial;
+  --JAME-BRANCH: initial;
+  --JAM-BRANCH: initial;
+  --LUNA-LEAF: "LUNA ";
+  --LUNA-BRANCH: initial;
+  --LUN-BRANCH: initial;
+  --MICHAEL-LEAF: "MICHAEL ";
+  --MICHAEL-BRANCH: initial;
+  --MICHAE-BRANCH: initial;
+  --MICHA-BRANCH: initial;
+  --MICH-BRANCH: initial;
+  --MIC-BRANCH: initial;
+  --AVERY-LEAF: "AVERY ";
+  --AVERY-BRANCH: initial;
+  --AVER-BRANCH: initial;
+  --AVE-BRANCH: initial;
+  --BENJAMIN-LEAF: "BENJAMIN ";
+  --BENJAMIN-BRANCH: initial;
+  --BENJAMI-BRANCH: initial;
+  --BENJAM-BRANCH: initial;
+  --BENJA-BRANCH: initial;
+  --BENJ-BRANCH: initial;
+  --BEN-BRANCH: initial;
+  --BE-BRANCH: initial;
+  --B-BRANCH: initial;
+  --EVELYN-LEAF: "EVELYN ";
+  --EVELYN-BRANCH: initial;
+  --EVELY-BRANCH: initial;
+  --EVEL-BRANCH: initial;
+  --LOGAN-LEAF: "LOGAN ";
+  --LOGAN-BRANCH: initial;
+  --LOGA-BRANCH: initial;
+  --LOG-BRANCH: initial;
+  --LO-BRANCH: initial;
+  --HARPER-LEAF: "HARPER ";
+  --HARPER-BRANCH: initial;
+  --HARPE-BRANCH: initial;
+  --HARP-BRANCH: initial;
+  --HAR-BRANCH: initial;
+  --HA-BRANCH: initial;
+  --H-BRANCH: initial;
+  --LEO-LEAF: "LEO ";
+  --LEO-BRANCH: initial;
+  --LE-BRANCH: initial;
+  --LILY-LEAF: "LILY ";
+  --LILY-BRANCH: initial;
+  --LIL-BRANCH: initial;
+  --LUCA-LEAF: "LUCA ";
+  --ELLA-LEAF: "ELLA ";
+  --ELLA-BRANCH: initial;
+  --ELL-BRANCH: initial;
+  --ALEXANDER-LEAF: "ALEXANDER ";
+  --ALEXANDER-BRANCH: initial;
+  --ALEXANDE-BRANCH: initial;
+  --ALEXAND-BRANCH: initial;
+  --ALEXAN-BRANCH: initial;
+  --ALEXA-BRANCH: initial;
+  --ALEX-BRANCH: initial;
+  --ALE-BRANCH: initial;
+  --GIANNA-LEAF: "GIANNA ";
+  --GIANNA-BRANCH: initial;
+  --GIANN-BRANCH: initial;
+  --GIAN-BRANCH: initial;
+  --GIA-BRANCH: initial;
+  --GI-BRANCH: initial;
+  --LEVI-LEAF: "LEVI ";
+  --LEVI-BRANCH: initial;
+  --LEV-BRANCH: initial;
+  --CHLOE-LEAF: "CHLOE ";
+  --CHLOE-BRANCH: initial;
+  --CHLO-BRANCH: initial;
+  --CHL-BRANCH: initial;
+  --DANIEL-LEAF: "DANIEL ";
+  --DANIEL-BRANCH: initial;
+  --DANIE-BRANCH: initial;
+  --DANI-BRANCH: initial;
+  --DAN-BRANCH: initial;
+  --DA-BRANCH: initial;
+  --D-BRANCH: initial;
+  --ALEXAN-NODE: VAR(--ALEXAND-BRANCH, VAR(--ALEXAND-NODE));
+  --ALIYAH-NODE: VAR(--LEVEL-6, VAR(--ALIYAH-LEAF));
+  --AMELIA-NODE: VAR(--LEVEL-6, VAR(--AMELIA-LEAF));
+  --BENJAM-NODE: VAR(--BENJAMI-BRANCH, VAR(--BENJAMI-NODE));
+  --CAMILL-NODE: VAR(--CAMILLA-BRANCH, VAR(--CAMILLA-NODE));
+  --CARTER-NODE: VAR(--LEVEL-6, VAR(--CARTER-LEAF));
+  --CHARLO-NODE: VAR(--CHARLOT-BRANCH, VAR(--CHARLOT-NODE));
+  --DANIEL-NODE: VAR(--LEVEL-6, VAR(--DANIEL-LEAF));
+  --ELIANA-NODE: VAR(--LEVEL-6, VAR(--ELIANA-LEAF));
+  --ELIJAH-NODE: VAR(--LEVEL-6, VAR(--ELIJAH-LEAF));
+  --EVELYN-NODE: VAR(--LEVEL-6, VAR(--EVELYN-LEAF));
+  --EVERLY-NODE: VAR(--LEVEL-6, VAR(--EVERLY-LEAF));
+  --GIANNA-NODE: VAR(--LEVEL-6, VAR(--GIANNA-LEAF));
+  --GRAYSO-NODE: VAR(--GRAYSON-BRANCH, VAR(--GRAYSON-NODE));
+  --HARPER-NODE: VAR(--LEVEL-6, VAR(--HARPER-LEAF));
+  --ISABEL-NODE: VAR(--ISABELL-BRANCH, VAR(--ISABELL-NODE));
+  --JACKSO-NODE: VAR(--JACKSON-BRANCH, VAR(--JACKSON-NODE));
+  --JAYDEN-NODE: VAR(--LEVEL-6, VAR(--JAYDEN-LEAF));
+  --MICHAE-NODE: VAR(--MICHAEL-BRANCH, VAR(--MICHAEL-NODE));
+  --MUHAMM-NODE: VAR(--MUHAMMA-BRANCH, VAR(--MUHAMMA-NODE));
+  --OLIVER-NODE: VAR(--LEVEL-6, VAR(--OLIVER-LEAF));
+  --OLIVIA-NODE: VAR(--LEVEL-6, VAR(--OLIVIA-LEAF));
+  --SEBAST-NODE: VAR(--SEBASTI-BRANCH, VAR(--SEBASTI-NODE));
+  --SOPHIA-NODE: VAR(--LEVEL-6, VAR(--SOPHIA-LEAF));
+  --AIDEN-NODE: VAR(--LEVEL-5, VAR(--AIDEN-LEAF));
+  --ALEXA-NODE: VAR(--ALEXAN-BRANCH, VAR(--ALEXAN-NODE));
+  --ALIYA-NODE: VAR(--ALIYAH-BRANCH, VAR(--ALIYAH-NODE));
+  --AMELI-NODE: VAR(--AMELIA-BRANCH, VAR(--AMELIA-NODE));
+  --AVERY-NODE: VAR(--LEVEL-5, VAR(--AVERY-LEAF));
+  --BENJA-NODE: VAR(--BENJAM-BRANCH, VAR(--BENJAM-NODE));
+  --CADEN-NODE: VAR(--LEVEL-5, VAR(--CADEN-LEAF));
+  --CAMIL-NODE: VAR(--CAMILL-BRANCH, VAR(--CAMILL-NODE));
+  --CARTE-NODE: VAR(--CARTER-BRANCH, VAR(--CARTER-NODE));
+  --CHARL-NODE: VAR(--CHARLO-BRANCH, VAR(--CHARLO-NODE));
+  --CHLOE-NODE: VAR(--LEVEL-5, VAR(--CHLOE-LEAF));
+  --DANIE-NODE: VAR(--DANIEL-BRANCH, VAR(--DANIEL-NODE));
+  --ELIAN-NODE: VAR(--ELIANA-BRANCH, VAR(--ELIANA-NODE));
+  --ELIJA-NODE: VAR(--ELIJAH-BRANCH, VAR(--ELIJAH-NODE));
+  --ETHAN-NODE: VAR(--LEVEL-5, VAR(--ETHAN-LEAF));
+  --EVELY-NODE: VAR(--EVELYN-BRANCH, VAR(--EVELYN-NODE));
+  --EVERL-NODE: VAR(--EVERLY-BRANCH, VAR(--EVERLY-NODE));
+  --GIANN-NODE: VAR(--GIANNA-BRANCH, VAR(--GIANNA-NODE));
+  --GRAYS-NODE: VAR(--GRAYSO-BRANCH, VAR(--GRAYSO-NODE));
+  --HARPE-NODE: VAR(--HARPER-BRANCH, VAR(--HARPER-NODE));
+  --ISABE-NODE: VAR(--ISABEL-BRANCH, VAR(--ISABEL-NODE));
+  --JACKS-NODE: VAR(--JACKSO-BRANCH, VAR(--JACKSO-NODE));
+  --JAMES-NODE: VAR(--LEVEL-5, VAR(--JAMES-LEAF));
+  --JAYDE-NODE: VAR(--JAYDEN-BRANCH, VAR(--JAYDEN-NODE));
+  --LAYLA-NODE: VAR(--LEVEL-5, VAR(--LAYLA-LEAF));
+  --LOGAN-NODE: VAR(--LEVEL-5, VAR(--LOGAN-LEAF));
+  --LUCAS-NODE: VAR(--LEVEL-5, VAR(--LUCAS-LEAF));
+  --MASON-NODE: VAR(--LEVEL-5, VAR(--MASON-LEAF));
+  --MATEO-NODE: VAR(--LEVEL-5, VAR(--MATEO-LEAF));
+  --MICHA-NODE: VAR(--MICHAE-BRANCH, VAR(--MICHAE-NODE));
+  --MUHAM-NODE: VAR(--MUHAMM-BRANCH, VAR(--MUHAMM-NODE));
+  --OLIVE-NODE: VAR(--OLIVER-BRANCH, VAR(--OLIVER-NODE));
+  --OLIVI-NODE: VAR(--OLIVIA-BRANCH, VAR(--OLIVIA-NODE));
+  --RILEY-NODE: VAR(--LEVEL-5, VAR(--RILEY-LEAF));
+  --SEBAS-NODE: VAR(--SEBAST-BRANCH, VAR(--SEBAST-NODE));
+  --SOPHI-NODE: VAR(--SOPHIA-BRANCH, VAR(--SOPHIA-NODE));
+  --AIDE-NODE: VAR(--AIDEN-BRANCH, VAR(--AIDEN-NODE));
+  --ALEX-NODE: VAR(--ALEXA-BRANCH, VAR(--ALEXA-NODE));
+  --ALIY-NODE: VAR(--ALIYA-BRANCH, VAR(--ALIYA-NODE));
+  --AMEL-NODE: VAR(--AMELI-BRANCH, VAR(--AMELI-NODE));
+  --ARIA-NODE: VAR(--LEVEL-4, VAR(--ARIA-LEAF));
+  --AVER-NODE: VAR(--AVERY-BRANCH, VAR(--AVERY-NODE));
+  --BENJ-NODE: VAR(--BENJA-BRANCH, VAR(--BENJA-NODE));
+  --CADE-NODE: VAR(--CADEN-BRANCH, VAR(--CADEN-NODE));
+  --CAMI-NODE: VAR(--CAMIL-BRANCH, VAR(--CAMIL-NODE));
+  --CART-NODE: VAR(--CARTE-BRANCH, VAR(--CARTE-NODE));
+  --CHAR-NODE: VAR(--CHARL-BRANCH, VAR(--CHARL-NODE));
+  --CHLO-NODE: VAR(--CHLOE-BRANCH, VAR(--CHLOE-NODE));
+  --DANI-NODE: VAR(--DANIE-BRANCH, VAR(--DANIE-NODE));
+  --ELIA-NODE: VAR(--ELIAN-BRANCH, VAR(--ELIAN-NODE));
+  --ELIJ-NODE: VAR(--ELIJA-BRANCH, VAR(--ELIJA-NODE));
+  --ELLA-NODE: VAR(--LEVEL-4, VAR(--ELLA-LEAF));
+  --EMMA-NODE: VAR(--LEVEL-4, VAR(--EMMA-LEAF));
+  --ETHA-NODE: VAR(--ETHAN-BRANCH, VAR(--ETHAN-NODE));
+  --EVEL-NODE: VAR(--EVELY-BRANCH, VAR(--EVELY-NODE));
+  --EVER-NODE: VAR(--EVERL-BRANCH, VAR(--EVERL-NODE));
+  --GIAN-NODE: VAR(--GIANN-BRANCH, VAR(--GIANN-NODE));
+  --GRAY-NODE: VAR(--GRAYS-BRANCH, VAR(--GRAYS-NODE));
+  --HARP-NODE: VAR(--HARPE-BRANCH, VAR(--HARPE-NODE));
+  --ISAB-NODE: VAR(--ISABE-BRANCH, VAR(--ISABE-NODE));
+  --JACK-NODE: VAR(--JACKS-BRANCH, VAR(--JACKS-NODE));
+  --JAME-NODE: VAR(--JAMES-BRANCH, VAR(--JAMES-NODE));
+  --JAYD-NODE: VAR(--JAYDE-BRANCH, VAR(--JAYDE-NODE));
+  --LAYL-NODE: VAR(--LAYLA-BRANCH, VAR(--LAYLA-NODE));
+  --LEVI-NODE: VAR(--LEVEL-4, VAR(--LEVI-LEAF));
+  --LIAM-NODE: VAR(--LEVEL-4, VAR(--LIAM-LEAF));
+  --LILY-NODE: VAR(--LEVEL-4, VAR(--LILY-LEAF));
+  --LOGA-NODE: VAR(--LOGAN-BRANCH, VAR(--LOGAN-NODE));
+  --LUCA-NODE: VAR(--LEVEL-4, VAR(--LUCA-LEAF)) VAR(--LUCAS-BRANCH, VAR(--LUCAS-NODE));
+  --LUNA-NODE: VAR(--LEVEL-4, VAR(--LUNA-LEAF));
+  --MASO-NODE: VAR(--MASON-BRANCH, VAR(--MASON-NODE));
+  --MATE-NODE: VAR(--MATEO-BRANCH, VAR(--MATEO-NODE));
+  --MICH-NODE: VAR(--MICHA-BRANCH, VAR(--MICHA-NODE));
+  --MILA-NODE: VAR(--LEVEL-4, VAR(--MILA-LEAF));
+  --MUHA-NODE: VAR(--MUHAM-BRANCH, VAR(--MUHAM-NODE));
+  --NOAH-NODE: VAR(--LEVEL-4, VAR(--NOAH-LEAF));
+  --OLIV-NODE: VAR(--OLIVE-BRANCH, VAR(--OLIVE-NODE)) VAR(--OLIVI-BRANCH, VAR(--OLIVI-NODE));
+  --RILE-NODE: VAR(--RILEY-BRANCH, VAR(--RILEY-NODE));
+  --SEBA-NODE: VAR(--SEBAS-BRANCH, VAR(--SEBAS-NODE));
+  --SOPH-NODE: VAR(--SOPHI-BRANCH, VAR(--SOPHI-NODE));
+  --AID-NODE: VAR(--AIDE-BRANCH, VAR(--AIDE-NODE));
+  --ALE-NODE: VAR(--ALEX-BRANCH, VAR(--ALEX-NODE));
+  --ALI-NODE: VAR(--ALIY-BRANCH, VAR(--ALIY-NODE));
+  --AME-NODE: VAR(--AMEL-BRANCH, VAR(--AMEL-NODE));
+  --ARI-NODE: VAR(--ARIA-BRANCH, VAR(--ARIA-NODE));
+  --AVA-NODE: VAR(--LEVEL-3, VAR(--AVA-LEAF));
+  --AVE-NODE: VAR(--AVER-BRANCH, VAR(--AVER-NODE));
+  --BEN-NODE: VAR(--BENJ-BRANCH, VAR(--BENJ-NODE));
+  --CAD-NODE: VAR(--CADE-BRANCH, VAR(--CADE-NODE));
+  --CAM-NODE: VAR(--CAMI-BRANCH, VAR(--CAMI-NODE));
+  --CAR-NODE: VAR(--CART-BRANCH, VAR(--CART-NODE));
+  --CHA-NODE: VAR(--CHAR-BRANCH, VAR(--CHAR-NODE));
+  --CHL-NODE: VAR(--CHLO-BRANCH, VAR(--CHLO-NODE));
+  --DAN-NODE: VAR(--DANI-BRANCH, VAR(--DANI-NODE));
+  --ELI-NODE: VAR(--ELIA-BRANCH, VAR(--ELIA-NODE)) VAR(--ELIJ-BRANCH, VAR(--ELIJ-NODE));
+  --ELL-NODE: VAR(--ELLA-BRANCH, VAR(--ELLA-NODE));
+  --EMM-NODE: VAR(--EMMA-BRANCH, VAR(--EMMA-NODE));
+  --ETH-NODE: VAR(--ETHA-BRANCH, VAR(--ETHA-NODE));
+  --EVE-NODE: VAR(--EVEL-BRANCH, VAR(--EVEL-NODE)) VAR(--EVER-BRANCH, VAR(--EVER-NODE));
+  --GIA-NODE: VAR(--GIAN-BRANCH, VAR(--GIAN-NODE));
+  --GRA-NODE: VAR(--GRAY-BRANCH, VAR(--GRAY-NODE));
+  --HAR-NODE: VAR(--HARP-BRANCH, VAR(--HARP-NODE));
+  --ISA-NODE: VAR(--ISAB-BRANCH, VAR(--ISAB-NODE));
+  --JAC-NODE: VAR(--JACK-BRANCH, VAR(--JACK-NODE));
+  --JAM-NODE: VAR(--JAME-BRANCH, VAR(--JAME-NODE));
+  --JAY-NODE: VAR(--JAYD-BRANCH, VAR(--JAYD-NODE));
+  --LAY-NODE: VAR(--LAYL-BRANCH, VAR(--LAYL-NODE));
+  --LEO-NODE: VAR(--LEVEL-3, VAR(--LEO-LEAF));
+  --LEV-NODE: VAR(--LEVI-BRANCH, VAR(--LEVI-NODE));
+  --LIA-NODE: VAR(--LIAM-BRANCH, VAR(--LIAM-NODE));
+  --LIL-NODE: VAR(--LILY-BRANCH, VAR(--LILY-NODE));
+  --LOG-NODE: VAR(--LOGA-BRANCH, VAR(--LOGA-NODE));
+  --LUC-NODE: VAR(--LUCA-BRANCH, VAR(--LUCA-NODE));
+  --LUN-NODE: VAR(--LUNA-BRANCH, VAR(--LUNA-NODE));
+  --MAS-NODE: VAR(--MASO-BRANCH, VAR(--MASO-NODE));
+  --MAT-NODE: VAR(--MATE-BRANCH, VAR(--MATE-NODE));
+  --MIA-NODE: VAR(--LEVEL-3, VAR(--MIA-LEAF));
+  --MIC-NODE: VAR(--MICH-BRANCH, VAR(--MICH-NODE));
+  --MIL-NODE: VAR(--MILA-BRANCH, VAR(--MILA-NODE));
+  --MUH-NODE: VAR(--MUHA-BRANCH, VAR(--MUHA-NODE));
+  --NOA-NODE: VAR(--NOAH-BRANCH, VAR(--NOAH-NODE));
+  --OLI-NODE: VAR(--OLIV-BRANCH, VAR(--OLIV-NODE));
+  --RIL-NODE: VAR(--RILE-BRANCH, VAR(--RILE-NODE));
+  --SEB-NODE: VAR(--SEBA-BRANCH, VAR(--SEBA-NODE));
+  --SOP-NODE: VAR(--SOPH-BRANCH, VAR(--SOPH-NODE));
+  --ZOE-NODE: VAR(--LEVEL-3, VAR(--ZOE-LEAF));
+  --AI-NODE: VAR(--AID-BRANCH, VAR(--AID-NODE));
+  --AL-NODE: VAR(--ALE-BRANCH, VAR(--ALE-NODE)) VAR(--ALI-BRANCH, VAR(--ALI-NODE));
+  --AM-NODE: VAR(--AME-BRANCH, VAR(--AME-NODE));
+  --AR-NODE: VAR(--ARI-BRANCH, VAR(--ARI-NODE));
+  --AV-NODE: VAR(--AVA-BRANCH, VAR(--AVA-NODE)) VAR(--AVE-BRANCH, VAR(--AVE-NODE));
+  --BE-NODE: VAR(--BEN-BRANCH, VAR(--BEN-NODE));
+  --CA-NODE: VAR(--CAD-BRANCH, VAR(--CAD-NODE)) VAR(--CAM-BRANCH, VAR(--CAM-NODE)) VAR(--CAR-BRANCH, VAR(--CAR-NODE));
+  --CH-NODE: VAR(--CHA-BRANCH, VAR(--CHA-NODE)) VAR(--CHL-BRANCH, VAR(--CHL-NODE));
+  --DA-NODE: VAR(--DAN-BRANCH, VAR(--DAN-NODE));
+  --EL-NODE: VAR(--ELI-BRANCH, VAR(--ELI-NODE)) VAR(--ELL-BRANCH, VAR(--ELL-NODE));
+  --EM-NODE: VAR(--EMM-BRANCH, VAR(--EMM-NODE));
+  --ET-NODE: VAR(--ETH-BRANCH, VAR(--ETH-NODE));
+  --EV-NODE: VAR(--EVE-BRANCH, VAR(--EVE-NODE));
+  --GI-NODE: VAR(--GIA-BRANCH, VAR(--GIA-NODE));
+  --GR-NODE: VAR(--GRA-BRANCH, VAR(--GRA-NODE));
+  --HA-NODE: VAR(--HAR-BRANCH, VAR(--HAR-NODE));
+  --IS-NODE: VAR(--ISA-BRANCH, VAR(--ISA-NODE));
+  --JA-NODE: VAR(--JAC-BRANCH, VAR(--JAC-NODE)) VAR(--JAM-BRANCH, VAR(--JAM-NODE)) VAR(--JAY-BRANCH, VAR(--JAY-NODE));
+  --LA-NODE: VAR(--LAY-BRANCH, VAR(--LAY-NODE));
+  --LE-NODE: VAR(--LEO-BRANCH, VAR(--LEO-NODE)) VAR(--LEV-BRANCH, VAR(--LEV-NODE));
+  --LI-NODE: VAR(--LIA-BRANCH, VAR(--LIA-NODE)) VAR(--LIL-BRANCH, VAR(--LIL-NODE));
+  --LO-NODE: VAR(--LOG-BRANCH, VAR(--LOG-NODE));
+  --LU-NODE: VAR(--LUC-BRANCH, VAR(--LUC-NODE)) VAR(--LUN-BRANCH, VAR(--LUN-NODE));
+  --MA-NODE: VAR(--MAS-BRANCH, VAR(--MAS-NODE)) VAR(--MAT-BRANCH, VAR(--MAT-NODE));
+  --MI-NODE: VAR(--MIA-BRANCH, VAR(--MIA-NODE)) VAR(--MIC-BRANCH, VAR(--MIC-NODE)) VAR(--MIL-BRANCH, VAR(--MIL-NODE));
+  --MU-NODE: VAR(--MUH-BRANCH, VAR(--MUH-NODE));
+  --NO-NODE: VAR(--NOA-BRANCH, VAR(--NOA-NODE));
+  --OL-NODE: VAR(--OLI-BRANCH, VAR(--OLI-NODE));
+  --RI-NODE: VAR(--RIL-BRANCH, VAR(--RIL-NODE));
+  --SE-NODE: VAR(--SEB-BRANCH, VAR(--SEB-NODE));
+  --SO-NODE: VAR(--SOP-BRANCH, VAR(--SOP-NODE));
+  --ZO-NODE: VAR(--ZOE-BRANCH, VAR(--ZOE-NODE));
+  --A-NODE: VAR(--AI-BRANCH, VAR(--AI-NODE)) VAR(--AL-BRANCH, VAR(--AL-NODE)) VAR(--AM-BRANCH, VAR(--AM-NODE)) VAR(--AR-BRANCH, VAR(--AR-NODE)) VAR(--AV-BRANCH, VAR(--AV-NODE));
+  --B-NODE: VAR(--BE-BRANCH, VAR(--BE-NODE));
+  --C-NODE: VAR(--CA-BRANCH, VAR(--CA-NODE)) VAR(--CH-BRANCH, VAR(--CH-NODE));
+  --D-NODE: VAR(--DA-BRANCH, VAR(--DA-NODE));
+  --E-NODE: VAR(--EL-BRANCH, VAR(--EL-NODE)) VAR(--EM-BRANCH, VAR(--EM-NODE)) VAR(--ET-BRANCH, VAR(--ET-NODE)) VAR(--EV-BRANCH, VAR(--EV-NODE));
+  --G-NODE: VAR(--GI-BRANCH, VAR(--GI-NODE)) VAR(--GR-BRANCH, VAR(--GR-NODE));
+  --H-NODE: VAR(--HA-BRANCH, VAR(--HA-NODE));
+  --I-NODE: VAR(--IS-BRANCH, VAR(--IS-NODE));
+  --J-NODE: VAR(--JA-BRANCH, VAR(--JA-NODE));
+  --L-NODE: VAR(--LA-BRANCH, VAR(--LA-NODE)) VAR(--LE-BRANCH, VAR(--LE-NODE)) VAR(--LI-BRANCH, VAR(--LI-NODE)) VAR(--LO-BRANCH, VAR(--LO-NODE)) VAR(--LU-BRANCH, VAR(--LU-NODE));
+  --M-NODE: VAR(--MA-BRANCH, VAR(--MA-NODE)) VAR(--MI-BRANCH, VAR(--MI-NODE)) VAR(--MU-BRANCH, VAR(--MU-NODE));
+  --N-NODE: VAR(--NO-BRANCH, VAR(--NO-NODE));
+  --O-NODE: VAR(--OL-BRANCH, VAR(--OL-NODE));
+  --R-NODE: VAR(--RI-BRANCH, VAR(--RI-NODE));
+  --S-NODE: VAR(--SE-BRANCH, VAR(--SE-NODE)) VAR(--SO-BRANCH, VAR(--SO-NODE));
+  --Z-NODE: VAR(--ZO-BRANCH, VAR(--ZO-NODE));
+  --ALEXAND-NODE: VAR(--ALEXANDE-BRANCH, VAR(--ALEXANDE-NODE));
+  --BENJAMI-NODE: VAR(--BENJAMIN-BRANCH, VAR(--BENJAMIN-NODE));
+  --CAMILLA-NODE: VAR(--LEVEL-7, VAR(--CAMILLA-LEAF));
+  --CHARLOT-NODE: VAR(--CHARLOTT-BRANCH, VAR(--CHARLOTT-NODE));
+  --GRAYSON-NODE: VAR(--LEVEL-7, VAR(--GRAYSON-LEAF));
+  --ISABELL-NODE: VAR(--ISABELLA-BRANCH, VAR(--ISABELLA-NODE));
+  --JACKSON-NODE: VAR(--LEVEL-7, VAR(--JACKSON-LEAF));
+  --MICHAEL-NODE: VAR(--LEVEL-7, VAR(--MICHAEL-LEAF));
+  --MUHAMMA-NODE: VAR(--MUHAMMAD-BRANCH, VAR(--MUHAMMAD-NODE));
+  --SEBASTI-NODE: VAR(--SEBASTIA-BRANCH, VAR(--SEBASTIA-NODE));
+  --ALEXANDE-NODE: VAR(--ALEXANDER-BRANCH, VAR(--ALEXANDER-NODE));
+  --BENJAMIN-NODE: VAR(--LEVEL-8, VAR(--BENJAMIN-LEAF));
+  --CHARLOTT-NODE: VAR(--CHARLOTTE-BRANCH, VAR(--CHARLOTTE-NODE));
+  --ISABELLA-NODE: VAR(--LEVEL-8, VAR(--ISABELLA-LEAF));
+  --MUHAMMAD-NODE: VAR(--LEVEL-8, VAR(--MUHAMMAD-LEAF));
+  --SEBASTIA-NODE: VAR(--SEBASTIAN-BRANCH, VAR(--SEBASTIAN-NODE));
+  --ALEXANDER-NODE: VAR(--LEVEL-9, VAR(--ALEXANDER-LEAF));
+  --CHARLOTTE-NODE: VAR(--LEVEL-9, VAR(--CHARLOTTE-LEAF));
+  --SEBASTIAN-NODE: VAR(--LEVEL-9, VAR(--SEBASTIAN-LEAF));
+  --ROOT: VAR(--A-BRANCH, VAR(--A-NODE)) VAR(--B-BRANCH, VAR(--B-NODE)) VAR(--C-BRANCH, VAR(--C-NODE)) VAR(--D-BRANCH, VAR(--D-NODE)) VAR(--E-BRANCH, VAR(--E-NODE)) VAR(--G-BRANCH, VAR(--G-NODE)) VAR(--H-BRANCH, VAR(--H-NODE)) VAR(--I-BRANCH, VAR(--I-NODE)) VAR(--J-BRANCH, VAR(--J-NODE)) VAR(--L-BRANCH, VAR(--L-NODE)) VAR(--M-BRANCH, VAR(--M-NODE)) VAR(--N-BRANCH, VAR(--N-NODE)) VAR(--O-BRANCH, VAR(--O-NODE)) VAR(--R-BRANCH, VAR(--R-NODE)) VAR(--S-BRANCH, VAR(--S-NODE)) VAR(--Z-BRANCH, VAR(--Z-NODE));
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+
+.result {
+  white-space: break-space;
+  width: 1px;
+  font: 5% "Roboto Mono", monospace;
+  position: absolute;
+  top: 0.25em;
+}
+.result::before {
+  content: var(--ROOT);
+}
+
+.container {
+  --width: 100vmin;
+  --break-point: clamp(0px, var(--width) - 500px, 50vmin);
+  --size: calc(var(--width) - var(--break-point));
+  width: var(--size);
+  font-size: var(--size);
+  height: calc(var(--size) * 1.2);
+  margin: auto;
+  position: relative;
+  border: 0.001em solid black;
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.container #layer10 {
+  --OPEN-1: + 1;
+}
+.container #layer10 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-1: + 0;
+}
+.container #layer10 > .A:checked ~ .layer .last {
+  --LETTER-1: "A";
+}
+.container #layer10 > .A:checked ~ .layer .last > .words {
+  --A-BRANCH: initial;
+  --LEVEL-0:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .B:checked ~ .layer .last {
+  --LETTER-1: "B";
+}
+.container #layer10 > .B:checked ~ .layer .last > .words {
+  --B-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .C:checked ~ .layer .last {
+  --LETTER-1: "C";
+}
+.container #layer10 > .C:checked ~ .layer .last > .words {
+  --C-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .D:checked ~ .layer .last {
+  --LETTER-1: "D";
+}
+.container #layer10 > .D:checked ~ .layer .last > .words {
+  --D-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .E:checked ~ .layer .last {
+  --LETTER-1: "E";
+}
+.container #layer10 > .E:checked ~ .layer .last > .words {
+  --E-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .F:checked ~ .layer .last {
+  --LETTER-1: "F";
+}
+.container #layer10 > .F:checked ~ .layer .last > .words {
+  --F-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .G:checked ~ .layer .last {
+  --LETTER-1: "G";
+}
+.container #layer10 > .G:checked ~ .layer .last > .words {
+  --G-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .H:checked ~ .layer .last {
+  --LETTER-1: "H";
+}
+.container #layer10 > .H:checked ~ .layer .last > .words {
+  --H-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .I:checked ~ .layer .last {
+  --LETTER-1: "I";
+}
+.container #layer10 > .I:checked ~ .layer .last > .words {
+  --I-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .J:checked ~ .layer .last {
+  --LETTER-1: "J";
+}
+.container #layer10 > .J:checked ~ .layer .last > .words {
+  --J-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .K:checked ~ .layer .last {
+  --LETTER-1: "K";
+}
+.container #layer10 > .K:checked ~ .layer .last > .words {
+  --K-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .L:checked ~ .layer .last {
+  --LETTER-1: "L";
+}
+.container #layer10 > .L:checked ~ .layer .last > .words {
+  --L-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .M:checked ~ .layer .last {
+  --LETTER-1: "M";
+}
+.container #layer10 > .M:checked ~ .layer .last > .words {
+  --M-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .N:checked ~ .layer .last {
+  --LETTER-1: "N";
+}
+.container #layer10 > .N:checked ~ .layer .last > .words {
+  --N-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .O:checked ~ .layer .last {
+  --LETTER-1: "O";
+}
+.container #layer10 > .O:checked ~ .layer .last > .words {
+  --O-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .P:checked ~ .layer .last {
+  --LETTER-1: "P";
+}
+.container #layer10 > .P:checked ~ .layer .last > .words {
+  --P-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .Q:checked ~ .layer .last {
+  --LETTER-1: "Q";
+}
+.container #layer10 > .Q:checked ~ .layer .last > .words {
+  --Q-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .R:checked ~ .layer .last {
+  --LETTER-1: "R";
+}
+.container #layer10 > .R:checked ~ .layer .last > .words {
+  --R-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .S:checked ~ .layer .last {
+  --LETTER-1: "S";
+}
+.container #layer10 > .S:checked ~ .layer .last > .words {
+  --S-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .T:checked ~ .layer .last {
+  --LETTER-1: "T";
+}
+.container #layer10 > .T:checked ~ .layer .last > .words {
+  --T-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .U:checked ~ .layer .last {
+  --LETTER-1: "U";
+}
+.container #layer10 > .U:checked ~ .layer .last > .words {
+  --U-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .V:checked ~ .layer .last {
+  --LETTER-1: "V";
+}
+.container #layer10 > .V:checked ~ .layer .last > .words {
+  --V-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .W:checked ~ .layer .last {
+  --LETTER-1: "W";
+}
+.container #layer10 > .W:checked ~ .layer .last > .words {
+  --W-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .X:checked ~ .layer .last {
+  --LETTER-1: "X";
+}
+.container #layer10 > .X:checked ~ .layer .last > .words {
+  --X-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .Y:checked ~ .layer .last {
+  --LETTER-1: "Y";
+}
+.container #layer10 > .Y:checked ~ .layer .last > .words {
+  --Y-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+  --Z-BRANCH:  ;
+}
+.container #layer10 > .Z:checked ~ .layer .last {
+  --LETTER-1: "Z";
+}
+.container #layer10 > .Z:checked ~ .layer .last > .words {
+  --Z-BRANCH: initial;
+  --LEVEL-0:  ;
+  --A-BRANCH:  ;
+  --B-BRANCH:  ;
+  --C-BRANCH:  ;
+  --D-BRANCH:  ;
+  --E-BRANCH:  ;
+  --G-BRANCH:  ;
+  --H-BRANCH:  ;
+  --I-BRANCH:  ;
+  --J-BRANCH:  ;
+  --L-BRANCH:  ;
+  --M-BRANCH:  ;
+  --N-BRANCH:  ;
+  --O-BRANCH:  ;
+  --R-BRANCH:  ;
+  --S-BRANCH:  ;
+}
+.container #layer9 {
+  --OPEN-2: + 1;
+}
+.container #layer9 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-2: + 0;
+}
+.container #layer9 > .A:checked ~ .layer .last {
+  --LETTER-2: "A";
+}
+.container #layer9 > .A:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .B:checked ~ .layer .last {
+  --LETTER-2: "B";
+}
+.container #layer9 > .B:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .C:checked ~ .layer .last {
+  --LETTER-2: "C";
+}
+.container #layer9 > .C:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .D:checked ~ .layer .last {
+  --LETTER-2: "D";
+}
+.container #layer9 > .D:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .E:checked ~ .layer .last {
+  --LETTER-2: "E";
+}
+.container #layer9 > .E:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .F:checked ~ .layer .last {
+  --LETTER-2: "F";
+}
+.container #layer9 > .F:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .G:checked ~ .layer .last {
+  --LETTER-2: "G";
+}
+.container #layer9 > .G:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .H:checked ~ .layer .last {
+  --LETTER-2: "H";
+}
+.container #layer9 > .H:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .I:checked ~ .layer .last {
+  --LETTER-2: "I";
+}
+.container #layer9 > .I:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .J:checked ~ .layer .last {
+  --LETTER-2: "J";
+}
+.container #layer9 > .J:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .K:checked ~ .layer .last {
+  --LETTER-2: "K";
+}
+.container #layer9 > .K:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .L:checked ~ .layer .last {
+  --LETTER-2: "L";
+}
+.container #layer9 > .L:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .M:checked ~ .layer .last {
+  --LETTER-2: "M";
+}
+.container #layer9 > .M:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .N:checked ~ .layer .last {
+  --LETTER-2: "N";
+}
+.container #layer9 > .N:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .O:checked ~ .layer .last {
+  --LETTER-2: "O";
+}
+.container #layer9 > .O:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+}
+.container #layer9 > .P:checked ~ .layer .last {
+  --LETTER-2: "P";
+}
+.container #layer9 > .P:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .Q:checked ~ .layer .last {
+  --LETTER-2: "Q";
+}
+.container #layer9 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .R:checked ~ .layer .last {
+  --LETTER-2: "R";
+}
+.container #layer9 > .R:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .S:checked ~ .layer .last {
+  --LETTER-2: "S";
+}
+.container #layer9 > .S:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .T:checked ~ .layer .last {
+  --LETTER-2: "T";
+}
+.container #layer9 > .T:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .U:checked ~ .layer .last {
+  --LETTER-2: "U";
+}
+.container #layer9 > .U:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .V:checked ~ .layer .last {
+  --LETTER-2: "V";
+}
+.container #layer9 > .V:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .W:checked ~ .layer .last {
+  --LETTER-2: "W";
+}
+.container #layer9 > .W:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .X:checked ~ .layer .last {
+  --LETTER-2: "X";
+}
+.container #layer9 > .X:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .Y:checked ~ .layer .last {
+  --LETTER-2: "Y";
+}
+.container #layer9 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer9 > .Z:checked ~ .layer .last {
+  --LETTER-2: "Z";
+}
+.container #layer9 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-1:  ;
+  --AI-BRANCH:  ;
+  --AL-BRANCH:  ;
+  --AM-BRANCH:  ;
+  --AR-BRANCH:  ;
+  --AV-BRANCH:  ;
+  --BE-BRANCH:  ;
+  --CA-BRANCH:  ;
+  --CH-BRANCH:  ;
+  --DA-BRANCH:  ;
+  --EL-BRANCH:  ;
+  --EM-BRANCH:  ;
+  --ET-BRANCH:  ;
+  --EV-BRANCH:  ;
+  --GI-BRANCH:  ;
+  --GR-BRANCH:  ;
+  --HA-BRANCH:  ;
+  --IS-BRANCH:  ;
+  --JA-BRANCH:  ;
+  --LA-BRANCH:  ;
+  --LE-BRANCH:  ;
+  --LI-BRANCH:  ;
+  --LO-BRANCH:  ;
+  --LU-BRANCH:  ;
+  --MA-BRANCH:  ;
+  --MI-BRANCH:  ;
+  --MU-BRANCH:  ;
+  --NO-BRANCH:  ;
+  --OL-BRANCH:  ;
+  --RI-BRANCH:  ;
+  --SE-BRANCH:  ;
+  --SO-BRANCH:  ;
+  --ZO-BRANCH:  ;
+}
+.container #layer8 {
+  --OPEN-3: + 1;
+}
+.container #layer8 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-3: + 0;
+}
+.container #layer8 > .A:checked ~ .layer .last {
+  --LETTER-3: "A";
+}
+.container #layer8 > .A:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .B:checked ~ .layer .last {
+  --LETTER-3: "B";
+}
+.container #layer8 > .B:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .C:checked ~ .layer .last {
+  --LETTER-3: "C";
+}
+.container #layer8 > .C:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .D:checked ~ .layer .last {
+  --LETTER-3: "D";
+}
+.container #layer8 > .D:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .E:checked ~ .layer .last {
+  --LETTER-3: "E";
+}
+.container #layer8 > .E:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+}
+.container #layer8 > .F:checked ~ .layer .last {
+  --LETTER-3: "F";
+}
+.container #layer8 > .F:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .G:checked ~ .layer .last {
+  --LETTER-3: "G";
+}
+.container #layer8 > .G:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .H:checked ~ .layer .last {
+  --LETTER-3: "H";
+}
+.container #layer8 > .H:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .I:checked ~ .layer .last {
+  --LETTER-3: "I";
+}
+.container #layer8 > .I:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .J:checked ~ .layer .last {
+  --LETTER-3: "J";
+}
+.container #layer8 > .J:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .K:checked ~ .layer .last {
+  --LETTER-3: "K";
+}
+.container #layer8 > .K:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .L:checked ~ .layer .last {
+  --LETTER-3: "L";
+}
+.container #layer8 > .L:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .M:checked ~ .layer .last {
+  --LETTER-3: "M";
+}
+.container #layer8 > .M:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .N:checked ~ .layer .last {
+  --LETTER-3: "N";
+}
+.container #layer8 > .N:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .O:checked ~ .layer .last {
+  --LETTER-3: "O";
+}
+.container #layer8 > .O:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .P:checked ~ .layer .last {
+  --LETTER-3: "P";
+}
+.container #layer8 > .P:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .Q:checked ~ .layer .last {
+  --LETTER-3: "Q";
+}
+.container #layer8 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .R:checked ~ .layer .last {
+  --LETTER-3: "R";
+}
+.container #layer8 > .R:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .S:checked ~ .layer .last {
+  --LETTER-3: "S";
+}
+.container #layer8 > .S:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .T:checked ~ .layer .last {
+  --LETTER-3: "T";
+}
+.container #layer8 > .T:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .U:checked ~ .layer .last {
+  --LETTER-3: "U";
+}
+.container #layer8 > .U:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .V:checked ~ .layer .last {
+  --LETTER-3: "V";
+}
+.container #layer8 > .V:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .W:checked ~ .layer .last {
+  --LETTER-3: "W";
+}
+.container #layer8 > .W:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .X:checked ~ .layer .last {
+  --LETTER-3: "X";
+}
+.container #layer8 > .X:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .Y:checked ~ .layer .last {
+  --LETTER-3: "Y";
+}
+.container #layer8 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer8 > .Z:checked ~ .layer .last {
+  --LETTER-3: "Z";
+}
+.container #layer8 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-2:  ;
+  --AID-BRANCH:  ;
+  --ALE-BRANCH:  ;
+  --ALI-BRANCH:  ;
+  --AME-BRANCH:  ;
+  --ARI-BRANCH:  ;
+  --AVA-BRANCH:  ;
+  --AVE-BRANCH:  ;
+  --BEN-BRANCH:  ;
+  --CAD-BRANCH:  ;
+  --CAM-BRANCH:  ;
+  --CAR-BRANCH:  ;
+  --CHA-BRANCH:  ;
+  --CHL-BRANCH:  ;
+  --DAN-BRANCH:  ;
+  --ELI-BRANCH:  ;
+  --ELL-BRANCH:  ;
+  --EMM-BRANCH:  ;
+  --ETH-BRANCH:  ;
+  --EVE-BRANCH:  ;
+  --GIA-BRANCH:  ;
+  --GRA-BRANCH:  ;
+  --HAR-BRANCH:  ;
+  --ISA-BRANCH:  ;
+  --JAC-BRANCH:  ;
+  --JAM-BRANCH:  ;
+  --JAY-BRANCH:  ;
+  --LAY-BRANCH:  ;
+  --LEO-BRANCH:  ;
+  --LEV-BRANCH:  ;
+  --LIA-BRANCH:  ;
+  --LIL-BRANCH:  ;
+  --LOG-BRANCH:  ;
+  --LUC-BRANCH:  ;
+  --LUN-BRANCH:  ;
+  --MAS-BRANCH:  ;
+  --MAT-BRANCH:  ;
+  --MIA-BRANCH:  ;
+  --MIC-BRANCH:  ;
+  --MIL-BRANCH:  ;
+  --MUH-BRANCH:  ;
+  --NOA-BRANCH:  ;
+  --OLI-BRANCH:  ;
+  --RIL-BRANCH:  ;
+  --SEB-BRANCH:  ;
+  --SOP-BRANCH:  ;
+  --ZOE-BRANCH:  ;
+}
+.container #layer7 {
+  --OPEN-4: + 1;
+}
+.container #layer7 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-4: + 0;
+}
+.container #layer7 > .A:checked ~ .layer .last {
+  --LETTER-4: "A";
+}
+.container #layer7 > .A:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .B:checked ~ .layer .last {
+  --LETTER-4: "B";
+}
+.container #layer7 > .B:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .C:checked ~ .layer .last {
+  --LETTER-4: "C";
+}
+.container #layer7 > .C:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .D:checked ~ .layer .last {
+  --LETTER-4: "D";
+}
+.container #layer7 > .D:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .E:checked ~ .layer .last {
+  --LETTER-4: "E";
+}
+.container #layer7 > .E:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .F:checked ~ .layer .last {
+  --LETTER-4: "F";
+}
+.container #layer7 > .F:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .G:checked ~ .layer .last {
+  --LETTER-4: "G";
+}
+.container #layer7 > .G:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .H:checked ~ .layer .last {
+  --LETTER-4: "H";
+}
+.container #layer7 > .H:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+}
+.container #layer7 > .I:checked ~ .layer .last {
+  --LETTER-4: "I";
+}
+.container #layer7 > .I:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .J:checked ~ .layer .last {
+  --LETTER-4: "J";
+}
+.container #layer7 > .J:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .K:checked ~ .layer .last {
+  --LETTER-4: "K";
+}
+.container #layer7 > .K:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .L:checked ~ .layer .last {
+  --LETTER-4: "L";
+}
+.container #layer7 > .L:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .M:checked ~ .layer .last {
+  --LETTER-4: "M";
+}
+.container #layer7 > .M:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .N:checked ~ .layer .last {
+  --LETTER-4: "N";
+}
+.container #layer7 > .N:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .O:checked ~ .layer .last {
+  --LETTER-4: "O";
+}
+.container #layer7 > .O:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .P:checked ~ .layer .last {
+  --LETTER-4: "P";
+}
+.container #layer7 > .P:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .Q:checked ~ .layer .last {
+  --LETTER-4: "Q";
+}
+.container #layer7 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .R:checked ~ .layer .last {
+  --LETTER-4: "R";
+}
+.container #layer7 > .R:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .S:checked ~ .layer .last {
+  --LETTER-4: "S";
+}
+.container #layer7 > .S:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .T:checked ~ .layer .last {
+  --LETTER-4: "T";
+}
+.container #layer7 > .T:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .U:checked ~ .layer .last {
+  --LETTER-4: "U";
+}
+.container #layer7 > .U:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .V:checked ~ .layer .last {
+  --LETTER-4: "V";
+}
+.container #layer7 > .V:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .W:checked ~ .layer .last {
+  --LETTER-4: "W";
+}
+.container #layer7 > .W:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .X:checked ~ .layer .last {
+  --LETTER-4: "X";
+}
+.container #layer7 > .X:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .Y:checked ~ .layer .last {
+  --LETTER-4: "Y";
+}
+.container #layer7 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer7 > .Z:checked ~ .layer .last {
+  --LETTER-4: "Z";
+}
+.container #layer7 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-3:  ;
+  --AIDE-BRANCH:  ;
+  --ALEX-BRANCH:  ;
+  --ALIY-BRANCH:  ;
+  --AMEL-BRANCH:  ;
+  --ARIA-BRANCH:  ;
+  --AVER-BRANCH:  ;
+  --BENJ-BRANCH:  ;
+  --CADE-BRANCH:  ;
+  --CAMI-BRANCH:  ;
+  --CART-BRANCH:  ;
+  --CHAR-BRANCH:  ;
+  --CHLO-BRANCH:  ;
+  --DANI-BRANCH:  ;
+  --ELIA-BRANCH:  ;
+  --ELIJ-BRANCH:  ;
+  --ELLA-BRANCH:  ;
+  --EMMA-BRANCH:  ;
+  --ETHA-BRANCH:  ;
+  --EVEL-BRANCH:  ;
+  --EVER-BRANCH:  ;
+  --GIAN-BRANCH:  ;
+  --GRAY-BRANCH:  ;
+  --HARP-BRANCH:  ;
+  --ISAB-BRANCH:  ;
+  --JACK-BRANCH:  ;
+  --JAME-BRANCH:  ;
+  --JAYD-BRANCH:  ;
+  --LAYL-BRANCH:  ;
+  --LEVI-BRANCH:  ;
+  --LIAM-BRANCH:  ;
+  --LILY-BRANCH:  ;
+  --LOGA-BRANCH:  ;
+  --LUCA-BRANCH:  ;
+  --LUNA-BRANCH:  ;
+  --MASO-BRANCH:  ;
+  --MATE-BRANCH:  ;
+  --MICH-BRANCH:  ;
+  --MILA-BRANCH:  ;
+  --MUHA-BRANCH:  ;
+  --NOAH-BRANCH:  ;
+  --OLIV-BRANCH:  ;
+  --RILE-BRANCH:  ;
+  --SEBA-BRANCH:  ;
+  --SOPH-BRANCH:  ;
+}
+.container #layer6 {
+  --OPEN-5: + 1;
+}
+.container #layer6 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-5: + 0;
+}
+.container #layer6 > .A:checked ~ .layer .last {
+  --LETTER-5: "A";
+}
+.container #layer6 > .A:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .B:checked ~ .layer .last {
+  --LETTER-5: "B";
+}
+.container #layer6 > .B:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .C:checked ~ .layer .last {
+  --LETTER-5: "C";
+}
+.container #layer6 > .C:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .D:checked ~ .layer .last {
+  --LETTER-5: "D";
+}
+.container #layer6 > .D:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .E:checked ~ .layer .last {
+  --LETTER-5: "E";
+}
+.container #layer6 > .E:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .F:checked ~ .layer .last {
+  --LETTER-5: "F";
+}
+.container #layer6 > .F:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .G:checked ~ .layer .last {
+  --LETTER-5: "G";
+}
+.container #layer6 > .G:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .H:checked ~ .layer .last {
+  --LETTER-5: "H";
+}
+.container #layer6 > .H:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .I:checked ~ .layer .last {
+  --LETTER-5: "I";
+}
+.container #layer6 > .I:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+}
+.container #layer6 > .J:checked ~ .layer .last {
+  --LETTER-5: "J";
+}
+.container #layer6 > .J:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .K:checked ~ .layer .last {
+  --LETTER-5: "K";
+}
+.container #layer6 > .K:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .L:checked ~ .layer .last {
+  --LETTER-5: "L";
+}
+.container #layer6 > .L:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .M:checked ~ .layer .last {
+  --LETTER-5: "M";
+}
+.container #layer6 > .M:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .N:checked ~ .layer .last {
+  --LETTER-5: "N";
+}
+.container #layer6 > .N:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .O:checked ~ .layer .last {
+  --LETTER-5: "O";
+}
+.container #layer6 > .O:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .P:checked ~ .layer .last {
+  --LETTER-5: "P";
+}
+.container #layer6 > .P:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .Q:checked ~ .layer .last {
+  --LETTER-5: "Q";
+}
+.container #layer6 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .R:checked ~ .layer .last {
+  --LETTER-5: "R";
+}
+.container #layer6 > .R:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .S:checked ~ .layer .last {
+  --LETTER-5: "S";
+}
+.container #layer6 > .S:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .T:checked ~ .layer .last {
+  --LETTER-5: "T";
+}
+.container #layer6 > .T:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .U:checked ~ .layer .last {
+  --LETTER-5: "U";
+}
+.container #layer6 > .U:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .V:checked ~ .layer .last {
+  --LETTER-5: "V";
+}
+.container #layer6 > .V:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .W:checked ~ .layer .last {
+  --LETTER-5: "W";
+}
+.container #layer6 > .W:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .X:checked ~ .layer .last {
+  --LETTER-5: "X";
+}
+.container #layer6 > .X:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .Y:checked ~ .layer .last {
+  --LETTER-5: "Y";
+}
+.container #layer6 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer6 > .Z:checked ~ .layer .last {
+  --LETTER-5: "Z";
+}
+.container #layer6 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-4:  ;
+  --AIDEN-BRANCH:  ;
+  --ALEXA-BRANCH:  ;
+  --ALIYA-BRANCH:  ;
+  --AMELI-BRANCH:  ;
+  --AVERY-BRANCH:  ;
+  --BENJA-BRANCH:  ;
+  --CADEN-BRANCH:  ;
+  --CAMIL-BRANCH:  ;
+  --CARTE-BRANCH:  ;
+  --CHARL-BRANCH:  ;
+  --CHLOE-BRANCH:  ;
+  --DANIE-BRANCH:  ;
+  --ELIAN-BRANCH:  ;
+  --ELIJA-BRANCH:  ;
+  --ETHAN-BRANCH:  ;
+  --EVELY-BRANCH:  ;
+  --EVERL-BRANCH:  ;
+  --GIANN-BRANCH:  ;
+  --GRAYS-BRANCH:  ;
+  --HARPE-BRANCH:  ;
+  --ISABE-BRANCH:  ;
+  --JACKS-BRANCH:  ;
+  --JAMES-BRANCH:  ;
+  --JAYDE-BRANCH:  ;
+  --LAYLA-BRANCH:  ;
+  --LOGAN-BRANCH:  ;
+  --LUCAS-BRANCH:  ;
+  --MASON-BRANCH:  ;
+  --MATEO-BRANCH:  ;
+  --MICHA-BRANCH:  ;
+  --MUHAM-BRANCH:  ;
+  --OLIVE-BRANCH:  ;
+  --OLIVI-BRANCH:  ;
+  --RILEY-BRANCH:  ;
+  --SEBAS-BRANCH:  ;
+  --SOPHI-BRANCH:  ;
+}
+.container #layer5 {
+  --OPEN-6: + 1;
+}
+.container #layer5 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-6: + 0;
+}
+.container #layer5 > .A:checked ~ .layer .last {
+  --LETTER-6: "A";
+}
+.container #layer5 > .A:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+}
+.container #layer5 > .B:checked ~ .layer .last {
+  --LETTER-6: "B";
+}
+.container #layer5 > .B:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .C:checked ~ .layer .last {
+  --LETTER-6: "C";
+}
+.container #layer5 > .C:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .D:checked ~ .layer .last {
+  --LETTER-6: "D";
+}
+.container #layer5 > .D:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .E:checked ~ .layer .last {
+  --LETTER-6: "E";
+}
+.container #layer5 > .E:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .F:checked ~ .layer .last {
+  --LETTER-6: "F";
+}
+.container #layer5 > .F:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .G:checked ~ .layer .last {
+  --LETTER-6: "G";
+}
+.container #layer5 > .G:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .H:checked ~ .layer .last {
+  --LETTER-6: "H";
+}
+.container #layer5 > .H:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .I:checked ~ .layer .last {
+  --LETTER-6: "I";
+}
+.container #layer5 > .I:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .J:checked ~ .layer .last {
+  --LETTER-6: "J";
+}
+.container #layer5 > .J:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .K:checked ~ .layer .last {
+  --LETTER-6: "K";
+}
+.container #layer5 > .K:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .L:checked ~ .layer .last {
+  --LETTER-6: "L";
+}
+.container #layer5 > .L:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .M:checked ~ .layer .last {
+  --LETTER-6: "M";
+}
+.container #layer5 > .M:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .N:checked ~ .layer .last {
+  --LETTER-6: "N";
+}
+.container #layer5 > .N:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .O:checked ~ .layer .last {
+  --LETTER-6: "O";
+}
+.container #layer5 > .O:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .P:checked ~ .layer .last {
+  --LETTER-6: "P";
+}
+.container #layer5 > .P:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .Q:checked ~ .layer .last {
+  --LETTER-6: "Q";
+}
+.container #layer5 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .R:checked ~ .layer .last {
+  --LETTER-6: "R";
+}
+.container #layer5 > .R:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .S:checked ~ .layer .last {
+  --LETTER-6: "S";
+}
+.container #layer5 > .S:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .T:checked ~ .layer .last {
+  --LETTER-6: "T";
+}
+.container #layer5 > .T:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .U:checked ~ .layer .last {
+  --LETTER-6: "U";
+}
+.container #layer5 > .U:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .V:checked ~ .layer .last {
+  --LETTER-6: "V";
+}
+.container #layer5 > .V:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .W:checked ~ .layer .last {
+  --LETTER-6: "W";
+}
+.container #layer5 > .W:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .X:checked ~ .layer .last {
+  --LETTER-6: "X";
+}
+.container #layer5 > .X:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .Y:checked ~ .layer .last {
+  --LETTER-6: "Y";
+}
+.container #layer5 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer5 > .Z:checked ~ .layer .last {
+  --LETTER-6: "Z";
+}
+.container #layer5 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-5:  ;
+  --ALEXAN-BRANCH:  ;
+  --ALIYAH-BRANCH:  ;
+  --AMELIA-BRANCH:  ;
+  --BENJAM-BRANCH:  ;
+  --CAMILL-BRANCH:  ;
+  --CARTER-BRANCH:  ;
+  --CHARLO-BRANCH:  ;
+  --DANIEL-BRANCH:  ;
+  --ELIANA-BRANCH:  ;
+  --ELIJAH-BRANCH:  ;
+  --EVELYN-BRANCH:  ;
+  --EVERLY-BRANCH:  ;
+  --GIANNA-BRANCH:  ;
+  --GRAYSO-BRANCH:  ;
+  --HARPER-BRANCH:  ;
+  --ISABEL-BRANCH:  ;
+  --JACKSO-BRANCH:  ;
+  --JAYDEN-BRANCH:  ;
+  --MICHAE-BRANCH:  ;
+  --MUHAMM-BRANCH:  ;
+  --OLIVER-BRANCH:  ;
+  --OLIVIA-BRANCH:  ;
+  --SEBAST-BRANCH:  ;
+  --SOPHIA-BRANCH:  ;
+}
+.container #layer4 {
+  --OPEN-7: + 1;
+}
+.container #layer4 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-7: + 0;
+}
+.container #layer4 > .A:checked ~ .layer .last {
+  --LETTER-7: "A";
+}
+.container #layer4 > .A:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .B:checked ~ .layer .last {
+  --LETTER-7: "B";
+}
+.container #layer4 > .B:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .C:checked ~ .layer .last {
+  --LETTER-7: "C";
+}
+.container #layer4 > .C:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .D:checked ~ .layer .last {
+  --LETTER-7: "D";
+}
+.container #layer4 > .D:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .E:checked ~ .layer .last {
+  --LETTER-7: "E";
+}
+.container #layer4 > .E:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .F:checked ~ .layer .last {
+  --LETTER-7: "F";
+}
+.container #layer4 > .F:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .G:checked ~ .layer .last {
+  --LETTER-7: "G";
+}
+.container #layer4 > .G:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .H:checked ~ .layer .last {
+  --LETTER-7: "H";
+}
+.container #layer4 > .H:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .I:checked ~ .layer .last {
+  --LETTER-7: "I";
+}
+.container #layer4 > .I:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+}
+.container #layer4 > .J:checked ~ .layer .last {
+  --LETTER-7: "J";
+}
+.container #layer4 > .J:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .K:checked ~ .layer .last {
+  --LETTER-7: "K";
+}
+.container #layer4 > .K:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .L:checked ~ .layer .last {
+  --LETTER-7: "L";
+}
+.container #layer4 > .L:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .M:checked ~ .layer .last {
+  --LETTER-7: "M";
+}
+.container #layer4 > .M:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .N:checked ~ .layer .last {
+  --LETTER-7: "N";
+}
+.container #layer4 > .N:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .O:checked ~ .layer .last {
+  --LETTER-7: "O";
+}
+.container #layer4 > .O:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .P:checked ~ .layer .last {
+  --LETTER-7: "P";
+}
+.container #layer4 > .P:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .Q:checked ~ .layer .last {
+  --LETTER-7: "Q";
+}
+.container #layer4 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .R:checked ~ .layer .last {
+  --LETTER-7: "R";
+}
+.container #layer4 > .R:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .S:checked ~ .layer .last {
+  --LETTER-7: "S";
+}
+.container #layer4 > .S:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .T:checked ~ .layer .last {
+  --LETTER-7: "T";
+}
+.container #layer4 > .T:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .U:checked ~ .layer .last {
+  --LETTER-7: "U";
+}
+.container #layer4 > .U:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .V:checked ~ .layer .last {
+  --LETTER-7: "V";
+}
+.container #layer4 > .V:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .W:checked ~ .layer .last {
+  --LETTER-7: "W";
+}
+.container #layer4 > .W:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .X:checked ~ .layer .last {
+  --LETTER-7: "X";
+}
+.container #layer4 > .X:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .Y:checked ~ .layer .last {
+  --LETTER-7: "Y";
+}
+.container #layer4 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer4 > .Z:checked ~ .layer .last {
+  --LETTER-7: "Z";
+}
+.container #layer4 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-6:  ;
+  --ALEXAND-BRANCH:  ;
+  --BENJAMI-BRANCH:  ;
+  --CAMILLA-BRANCH:  ;
+  --CHARLOT-BRANCH:  ;
+  --GRAYSON-BRANCH:  ;
+  --ISABELL-BRANCH:  ;
+  --JACKSON-BRANCH:  ;
+  --MICHAEL-BRANCH:  ;
+  --MUHAMMA-BRANCH:  ;
+  --SEBASTI-BRANCH:  ;
+}
+.container #layer3 {
+  --OPEN-8: + 1;
+}
+.container #layer3 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-8: + 0;
+}
+.container #layer3 > .A:checked ~ .layer .last {
+  --LETTER-8: "A";
+}
+.container #layer3 > .A:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+}
+.container #layer3 > .B:checked ~ .layer .last {
+  --LETTER-8: "B";
+}
+.container #layer3 > .B:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .C:checked ~ .layer .last {
+  --LETTER-8: "C";
+}
+.container #layer3 > .C:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .D:checked ~ .layer .last {
+  --LETTER-8: "D";
+}
+.container #layer3 > .D:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .E:checked ~ .layer .last {
+  --LETTER-8: "E";
+}
+.container #layer3 > .E:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .F:checked ~ .layer .last {
+  --LETTER-8: "F";
+}
+.container #layer3 > .F:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .G:checked ~ .layer .last {
+  --LETTER-8: "G";
+}
+.container #layer3 > .G:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .H:checked ~ .layer .last {
+  --LETTER-8: "H";
+}
+.container #layer3 > .H:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .I:checked ~ .layer .last {
+  --LETTER-8: "I";
+}
+.container #layer3 > .I:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .J:checked ~ .layer .last {
+  --LETTER-8: "J";
+}
+.container #layer3 > .J:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .K:checked ~ .layer .last {
+  --LETTER-8: "K";
+}
+.container #layer3 > .K:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .L:checked ~ .layer .last {
+  --LETTER-8: "L";
+}
+.container #layer3 > .L:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .M:checked ~ .layer .last {
+  --LETTER-8: "M";
+}
+.container #layer3 > .M:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .N:checked ~ .layer .last {
+  --LETTER-8: "N";
+}
+.container #layer3 > .N:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .O:checked ~ .layer .last {
+  --LETTER-8: "O";
+}
+.container #layer3 > .O:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .P:checked ~ .layer .last {
+  --LETTER-8: "P";
+}
+.container #layer3 > .P:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .Q:checked ~ .layer .last {
+  --LETTER-8: "Q";
+}
+.container #layer3 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .R:checked ~ .layer .last {
+  --LETTER-8: "R";
+}
+.container #layer3 > .R:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .S:checked ~ .layer .last {
+  --LETTER-8: "S";
+}
+.container #layer3 > .S:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .T:checked ~ .layer .last {
+  --LETTER-8: "T";
+}
+.container #layer3 > .T:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .U:checked ~ .layer .last {
+  --LETTER-8: "U";
+}
+.container #layer3 > .U:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .V:checked ~ .layer .last {
+  --LETTER-8: "V";
+}
+.container #layer3 > .V:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .W:checked ~ .layer .last {
+  --LETTER-8: "W";
+}
+.container #layer3 > .W:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .X:checked ~ .layer .last {
+  --LETTER-8: "X";
+}
+.container #layer3 > .X:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .Y:checked ~ .layer .last {
+  --LETTER-8: "Y";
+}
+.container #layer3 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer3 > .Z:checked ~ .layer .last {
+  --LETTER-8: "Z";
+}
+.container #layer3 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-7:  ;
+  --ALEXANDE-BRANCH:  ;
+  --BENJAMIN-BRANCH:  ;
+  --CHARLOTT-BRANCH:  ;
+  --ISABELLA-BRANCH:  ;
+  --MUHAMMAD-BRANCH:  ;
+  --SEBASTIA-BRANCH:  ;
+}
+.container #layer2 {
+  --OPEN-9: + 1;
+}
+.container #layer2 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-9: + 0;
+}
+.container #layer2 > .A:checked ~ .layer .last {
+  --LETTER-9: "A";
+}
+.container #layer2 > .A:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .B:checked ~ .layer .last {
+  --LETTER-9: "B";
+}
+.container #layer2 > .B:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .C:checked ~ .layer .last {
+  --LETTER-9: "C";
+}
+.container #layer2 > .C:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .D:checked ~ .layer .last {
+  --LETTER-9: "D";
+}
+.container #layer2 > .D:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .E:checked ~ .layer .last {
+  --LETTER-9: "E";
+}
+.container #layer2 > .E:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .F:checked ~ .layer .last {
+  --LETTER-9: "F";
+}
+.container #layer2 > .F:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .G:checked ~ .layer .last {
+  --LETTER-9: "G";
+}
+.container #layer2 > .G:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .H:checked ~ .layer .last {
+  --LETTER-9: "H";
+}
+.container #layer2 > .H:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .I:checked ~ .layer .last {
+  --LETTER-9: "I";
+}
+.container #layer2 > .I:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .J:checked ~ .layer .last {
+  --LETTER-9: "J";
+}
+.container #layer2 > .J:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .K:checked ~ .layer .last {
+  --LETTER-9: "K";
+}
+.container #layer2 > .K:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .L:checked ~ .layer .last {
+  --LETTER-9: "L";
+}
+.container #layer2 > .L:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .M:checked ~ .layer .last {
+  --LETTER-9: "M";
+}
+.container #layer2 > .M:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .N:checked ~ .layer .last {
+  --LETTER-9: "N";
+}
+.container #layer2 > .N:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+}
+.container #layer2 > .O:checked ~ .layer .last {
+  --LETTER-9: "O";
+}
+.container #layer2 > .O:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .P:checked ~ .layer .last {
+  --LETTER-9: "P";
+}
+.container #layer2 > .P:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .Q:checked ~ .layer .last {
+  --LETTER-9: "Q";
+}
+.container #layer2 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .R:checked ~ .layer .last {
+  --LETTER-9: "R";
+}
+.container #layer2 > .R:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .S:checked ~ .layer .last {
+  --LETTER-9: "S";
+}
+.container #layer2 > .S:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .T:checked ~ .layer .last {
+  --LETTER-9: "T";
+}
+.container #layer2 > .T:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .U:checked ~ .layer .last {
+  --LETTER-9: "U";
+}
+.container #layer2 > .U:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .V:checked ~ .layer .last {
+  --LETTER-9: "V";
+}
+.container #layer2 > .V:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .W:checked ~ .layer .last {
+  --LETTER-9: "W";
+}
+.container #layer2 > .W:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .X:checked ~ .layer .last {
+  --LETTER-9: "X";
+}
+.container #layer2 > .X:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .Y:checked ~ .layer .last {
+  --LETTER-9: "Y";
+}
+.container #layer2 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer2 > .Z:checked ~ .layer .last {
+  --LETTER-9: "Z";
+}
+.container #layer2 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-8:  ;
+  --ALEXANDER-BRANCH:  ;
+  --CHARLOTTE-BRANCH:  ;
+  --SEBASTIAN-BRANCH:  ;
+}
+.container #layer1 {
+  --OPEN-10: + 1;
+}
+.container #layer1 > .button:not(.delete):checked ~ .layer .last {
+  --OPEN-10: + 0;
+}
+.container #layer1 > .A:checked ~ .layer .last {
+  --LETTER-10: "A";
+}
+.container #layer1 > .A:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .B:checked ~ .layer .last {
+  --LETTER-10: "B";
+}
+.container #layer1 > .B:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .C:checked ~ .layer .last {
+  --LETTER-10: "C";
+}
+.container #layer1 > .C:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .D:checked ~ .layer .last {
+  --LETTER-10: "D";
+}
+.container #layer1 > .D:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .E:checked ~ .layer .last {
+  --LETTER-10: "E";
+}
+.container #layer1 > .E:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .F:checked ~ .layer .last {
+  --LETTER-10: "F";
+}
+.container #layer1 > .F:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .G:checked ~ .layer .last {
+  --LETTER-10: "G";
+}
+.container #layer1 > .G:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .H:checked ~ .layer .last {
+  --LETTER-10: "H";
+}
+.container #layer1 > .H:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .I:checked ~ .layer .last {
+  --LETTER-10: "I";
+}
+.container #layer1 > .I:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .J:checked ~ .layer .last {
+  --LETTER-10: "J";
+}
+.container #layer1 > .J:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .K:checked ~ .layer .last {
+  --LETTER-10: "K";
+}
+.container #layer1 > .K:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .L:checked ~ .layer .last {
+  --LETTER-10: "L";
+}
+.container #layer1 > .L:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .M:checked ~ .layer .last {
+  --LETTER-10: "M";
+}
+.container #layer1 > .M:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .N:checked ~ .layer .last {
+  --LETTER-10: "N";
+}
+.container #layer1 > .N:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .O:checked ~ .layer .last {
+  --LETTER-10: "O";
+}
+.container #layer1 > .O:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .P:checked ~ .layer .last {
+  --LETTER-10: "P";
+}
+.container #layer1 > .P:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .Q:checked ~ .layer .last {
+  --LETTER-10: "Q";
+}
+.container #layer1 > .Q:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .R:checked ~ .layer .last {
+  --LETTER-10: "R";
+}
+.container #layer1 > .R:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .S:checked ~ .layer .last {
+  --LETTER-10: "S";
+}
+.container #layer1 > .S:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .T:checked ~ .layer .last {
+  --LETTER-10: "T";
+}
+.container #layer1 > .T:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .U:checked ~ .layer .last {
+  --LETTER-10: "U";
+}
+.container #layer1 > .U:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .V:checked ~ .layer .last {
+  --LETTER-10: "V";
+}
+.container #layer1 > .V:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .W:checked ~ .layer .last {
+  --LETTER-10: "W";
+}
+.container #layer1 > .W:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .X:checked ~ .layer .last {
+  --LETTER-10: "X";
+}
+.container #layer1 > .X:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .Y:checked ~ .layer .last {
+  --LETTER-10: "Y";
+}
+.container #layer1 > .Y:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container #layer1 > .Z:checked ~ .layer .last {
+  --LETTER-10: "Z";
+}
+.container #layer1 > .Z:checked ~ .layer .last > .words {
+  --LEVEL-9:  ;
+}
+.container .letters {
+  --COUNT: 0 VAR(--OPEN-1) VAR(--OPEN-2) VAR(--OPEN-3) VAR(--OPEN-4) VAR(--OPEN-5) VAR(--OPEN-6) VAR(--OPEN-7) VAR(--OPEN-8) VAR(--OPEN-9) VAR(--OPEN-10);
+}
+.container .letters .letter:nth-child(1)::before {
+  content: VAR(--LETTER-1);
+}
+.container .letters .letter:nth-child(2)::before {
+  content: VAR(--LETTER-2);
+}
+.container .letters .letter:nth-child(3)::before {
+  content: VAR(--LETTER-3);
+}
+.container .letters .letter:nth-child(4)::before {
+  content: VAR(--LETTER-4);
+}
+.container .letters .letter:nth-child(5)::before {
+  content: VAR(--LETTER-5);
+}
+.container .letters .letter:nth-child(6)::before {
+  content: VAR(--LETTER-6);
+}
+.container .letters .letter:nth-child(7)::before {
+  content: VAR(--LETTER-7);
+}
+.container .letters .letter:nth-child(8)::before {
+  content: VAR(--LETTER-8);
+}
+.container .letters .letter:nth-child(9)::before {
+  content: VAR(--LETTER-9);
+}
+.container .letters .letter:nth-child(10)::before {
+  content: VAR(--LETTER-10);
+}
+.container::before {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 96%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2% 2% 5% 5%;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(20, calc(5% - 0.003em));
+  grid-template-rows: repeat(10, calc(10% - 0.003em));
+  grid-template-areas: "words words words words words words words words words words words words words words words words words words words words" "words words words words words words words words words words words words words words words words words words words words" "words words words words words words words words words words words words words words words words words words words words" "words words words words words words words words words words words words words words words words words words words words" "words words words words words words words words words words words words words words words words words words words words" "words words words words words words words words words words words words words words words words words words words words" "letters letters letters letters letters letters letters letters letters letters letters letters letters letters letters letters letters letters delete delete" "Q Q W W E E R R T T Y Y U U I I O O P P" ". A A S S D D F F G G H H J J K K L L ." ". . . Z Z X X C C V V B B N N M M . . .";
+  grid-gap: 0.003em;
+  inset: 0;
+  padding: 3.5%;
+}
+.layer:not(.container > .layer) {
+  pointer-events: none;
+}
+.layer:not(.container > .layer) > .button {
+  opacity: 0;
+}
+
+.letters {
+  grid-area: letters;
+  margin: 0.003em 0 0.003em 0.0015em;
+  box-shadow: inset 0 0 0 0.002em black;
+  display: flex;
+  align-items: center;
+  padding: 0 0.02em;
+  background-color: white;
+  position: relative;
+}
+.letters::before {
+  counter-reset: convert calc(var(--COUNT));
+  content: counter(convert);
+  font: 4% "Open Sans", sans-serif;
+  position: absolute;
+  right: 2%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.letters::after {
+  content: "|";
+  font-size: 7.5%;
+  opacity: 0;
+  transform: translatey(-6%);
+  --ACTIVE: min(1, (1 - calc(var(--COUNT) + 1)) * -1);
+  -webkit-animation: flash calc(1s * var(--ACTIVE)) infinite;
+          animation: flash calc(1s * var(--ACTIVE)) infinite;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  50.1% {
+    opacity: 0;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  50.1% {
+    opacity: 0;
+  }
+}
+
+.letter {
+  font: 7.5% "Roboto Mono", monospace;
+  flex: 0 1;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font: 5% "Open Sans", sans-serif;
+  cursor: pointer;
+  margin: 0.03em;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: white;
+  box-shadow: inset 0 0 0 0.04em black;
+  border-radius: 0;
+  border: none;
+}
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.25);
+  opacity: 0;
+}
+.button.A {
+  grid-area: A;
+}
+.button.A::after {
+  content: "A";
+}
+.button.B {
+  grid-area: B;
+}
+.button.B::after {
+  content: "B";
+}
+.button.C {
+  grid-area: C;
+}
+.button.C::after {
+  content: "C";
+}
+.button.D {
+  grid-area: D;
+}
+.button.D::after {
+  content: "D";
+}
+.button.E {
+  grid-area: E;
+}
+.button.E::after {
+  content: "E";
+}
+.button.F {
+  grid-area: F;
+}
+.button.F::after {
+  content: "F";
+}
+.button.G {
+  grid-area: G;
+}
+.button.G::after {
+  content: "G";
+}
+.button.H {
+  grid-area: H;
+}
+.button.H::after {
+  content: "H";
+}
+.button.I {
+  grid-area: I;
+}
+.button.I::after {
+  content: "I";
+}
+.button.J {
+  grid-area: J;
+}
+.button.J::after {
+  content: "J";
+}
+.button.K {
+  grid-area: K;
+}
+.button.K::after {
+  content: "K";
+}
+.button.L {
+  grid-area: L;
+}
+.button.L::after {
+  content: "L";
+}
+.button.M {
+  grid-area: M;
+}
+.button.M::after {
+  content: "M";
+}
+.button.N {
+  grid-area: N;
+}
+.button.N::after {
+  content: "N";
+}
+.button.O {
+  grid-area: O;
+}
+.button.O::after {
+  content: "O";
+}
+.button.P {
+  grid-area: P;
+}
+.button.P::after {
+  content: "P";
+}
+.button.Q {
+  grid-area: Q;
+}
+.button.Q::after {
+  content: "Q";
+}
+.button.R {
+  grid-area: R;
+}
+.button.R::after {
+  content: "R";
+}
+.button.S {
+  grid-area: S;
+}
+.button.S::after {
+  content: "S";
+}
+.button.T {
+  grid-area: T;
+}
+.button.T::after {
+  content: "T";
+}
+.button.U {
+  grid-area: U;
+}
+.button.U::after {
+  content: "U";
+}
+.button.V {
+  grid-area: V;
+}
+.button.V::after {
+  content: "V";
+}
+.button.W {
+  grid-area: W;
+}
+.button.W::after {
+  content: "W";
+}
+.button.X {
+  grid-area: X;
+}
+.button.X::after {
+  content: "X";
+}
+.button.Y {
+  grid-area: Y;
+}
+.button.Y::after {
+  content: "Y";
+}
+.button.Z {
+  grid-area: Z;
+}
+.button.Z::after {
+  content: "Z";
+}
+.button.delete {
+  grid-area: delete;
+  font-size: 3%;
+  height: 94%;
+  transform: translatey(2%);
+  box-shadow: inset 0 0 0 0.07em black;
+}
+.button.delete::after {
+  content: "⌫";
+}
+.button:not(.delete):checked ~ .layer {
+  pointer-events: auto;
+}
+.button:not(.delete):checked ~ .layer > .button {
+  opacity: 1;
+}
+.button:hover::before {
+  opacity: 1;
+}
+.button:focus {
+  outline: none;
+}
